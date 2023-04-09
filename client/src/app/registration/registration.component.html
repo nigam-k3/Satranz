@@ -1,0 +1,30 @@
+<form [formGroup]="signUp" (ngSubmit)="onSubmit()">
+    <div class="container text-center">
+        <div class="row">
+            <h1>Chess Play&Win</h1>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" pInputText placeholder="Name" formControlName="name">
+            </div>
+            <div class="col-12">
+                <input type="text" pInputText placeholder="Email" formControlName="email">
+            </div>
+            <div class="col-12">
+                <input type="text" pInputText placeholder="Phone" formControlName="phone">
+            </div>
+            <div class="col-12">
+                <p-password>
+                    <input pInputText placeholder="Password" formControlName="password" type="password" pPassword>
+                </p-password>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <button pButton type="submit" label="Sign up"></button>
+            </div>
+        </div>
+    </div>
+</form>
