@@ -13,6 +13,8 @@ import { NgxChessBoardModule } from "ngx-chess-board";
 import { ChessBoardComponent } from './chess-board/chess-board.component';
 import { LoginComponent } from './login/login.component';
 import {StyleClassModule} from 'primeng/styleclass';
+import { ToolComponent } from './tool/tool.component';
+import { ImageTOtextComponent } from './tool/image-totext/image-totext.component';
 
 
 
@@ -22,7 +24,9 @@ import {StyleClassModule} from 'primeng/styleclass';
     AppComponent,
     RegistrationComponent,
     ChessBoardComponent,
-    LoginComponent
+    LoginComponent,
+    ToolComponent,
+    ImageTOtextComponent
   ],
   imports: [
     BrowserModule,
